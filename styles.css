@@ -3,9 +3,12 @@
     scroll-behavior: smooth;
   }
 }
+
+/*Variables*/
 :root{
   --color: white;
  --background: #646464;
+ --black: #ffffff;
 }
 
 body, html{
@@ -19,7 +22,7 @@ body, html{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: black;
+  background-color: var(--black);
 }
 #navbar ul {
     list-style-type: none;
@@ -103,7 +106,7 @@ a{
 }
 #contact{
   height: 90vh;
-  background: black;
+  background: var(--black);
 }
 footer{
   border-top: 2px solid var(--color);
