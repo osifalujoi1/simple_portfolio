@@ -5,6 +5,7 @@
 }
 :root{
   --color: white;
+ --background: #646464;
 }
 
 body, html{
@@ -60,7 +61,7 @@ a:hover{
 
 #welcome-section{
   height: 100vh;
-  background: black 80%;
+  background: var(--background);
   font-size: 26px;
   margin: 0 auto 0 auto;
 }
@@ -72,7 +73,7 @@ a:hover{
 
 #projects{
   padding: 20px;
-  background-color: #545454;
+  background-color: var(--background);
   color: var(--color);
   margin: 0 auto 0 auto;
 }
