@@ -56,7 +56,7 @@ body, html{
 
 a:hover{
   transform: translateY(-5px);
-  background: black;
+  background: #f6c1c1;
 }
 
 #welcome-section{
