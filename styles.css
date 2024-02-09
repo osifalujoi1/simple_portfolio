@@ -84,7 +84,7 @@ a:hover{
       grid-template-rows: max-content max-content;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
-  row-gap: 2.0rem;
+  row-gap: 1.0rem;
   height: 100%;
   font-weight: 700;
 }
