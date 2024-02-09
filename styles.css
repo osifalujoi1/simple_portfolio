@@ -10,6 +10,7 @@
  --background: #646464;
  --black: black;
  --pink: #f6c1c1;
+ --pink-highlight: #6D4E4E;
 }
 
 /*Font Variables*/
@@ -26,7 +27,7 @@ body, html{
   padding: 0;
   color: var(--color);
   text-align: center;
-  font-family: --body-font;
+  font-family: var(--body-font);
 }
 #navbar{
   position: fixed;
@@ -69,7 +70,7 @@ body, html{
 
 a:hover{
   transform: translateY(-5px);
-  background: var(--pink);
+  background: var(--pink-highlight);
 }
 
 /*Home*/
