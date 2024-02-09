@@ -18,7 +18,7 @@ body, html{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(55, 55, 83);
+  background-color: #545454;
 }
 #navbar ul {
     list-style-type: none;
@@ -60,7 +60,7 @@ a:hover{
 
 #welcome-section{
   height: 100vh;
-  background: linear-gradient(0deg, rgb(55, 55, 83), black 80%);
+  background: linear-gradient(0deg, #545454, black 80%);
   font-size: 26px;
   margin: 0 auto 0 auto;
 }
