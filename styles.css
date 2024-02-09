@@ -4,20 +4,28 @@
   }
 }
 
-/*Variables*/
+/*Color Variables*/
 :root{
   --color: white;
  --background: #646464;
  --black: black;
 }
 
+/*Font Variables*/
+:root {
+  --body-font: 'Poppins', Avenir;
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1rem;
+  --normal-font-size: 0.93rem;
+  --small-font-size: 0.81rem;
+}
 
 body, html{
   margin: 0 auto;
   padding: 0;
   color: var(--color);
   text-align: center;
-  font-family: Avenir;
+  font-family: --body-font;
 }
 #navbar{
   position: fixed;
@@ -80,8 +88,8 @@ a:hover{
 
 .home__information {
   padding-left: 1.5rem;
-  border-left: 5px solid var(--white-color);
-  z-index: var(--z-tooltip);
+  border-left: 5px solid var(--color);
+  z-index: 10;
 }
 
 .home__pressent {
@@ -95,6 +103,7 @@ a:hover{
 .home__skill {
   font-size: var(--h2-font-size);
 }
+
 #welcome-section{
   height: 100vh;
   background: var(--background);
