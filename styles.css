@@ -60,7 +60,7 @@ a:hover{
 
 #welcome-section{
   height: 100vh;
-  background: linear-gradient(0deg, #545454, black 80%);
+  background: black 80%;
   font-size: 26px;
   margin: 0 auto 0 auto;
 }
