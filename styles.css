@@ -45,7 +45,7 @@ body, html{
 
 .code{
   opacity: 0;
-  color: rgb(202, 125, 125);
+  color: #f6c1c1;
 }
 
 #navbar ul li a:hover .code{
@@ -85,7 +85,7 @@ a{
   color: inherit;
 }
 .project-tile{
-  border: 2px solid black;
+  border: 2px solid #f6c1c1;
   border-radius: 7%;
   width: 100%;
   height:100%;
