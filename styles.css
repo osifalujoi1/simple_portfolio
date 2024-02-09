@@ -9,6 +9,7 @@
   --color: white;
  --background: #646464;
  --black: black;
+ --pink: #f6c1c1;
 }
 
 /*Font Variables*/
@@ -68,7 +69,7 @@ body, html{
 
 a:hover{
   transform: translateY(-5px);
-  background: #646464;
+  background: var(--pink);
 }
 
 /*Home*/
